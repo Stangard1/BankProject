@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Mulish:wght@400;600;700&family=Noto+Serif:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: #002B5B;
+}
+
+p span{
+    font-weight: 400;
+    color: #256D85;
+}
+
+header{
+    min-height: 20px;
+    padding: 20px 30px;
+    background: #8FE3CF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #E38B29;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px;
+}
+
+.a1{
+    background: #002B5B;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .3s all ease-in-out;
+}
+
+.a1:hover{
+    box-shadow: 1px -5px 25px -1px rgba(0,0,0,0.14);
+    margin-bottom: 10px;
+}
+
+header ul li{
+    margin: 0 20px;
+}
+.reviews{
+    margin-top: 60px;
+    min-height: 500px;
+}
+
+.reviews .carousel .card{
+    background: #002B5B;
+    padding: 25px 35px;
+    transition: all 0.5s ease;
+  }
+  
+  .reviews .carousel .card:hover .box{
+    transform: scale(1.05);
+  }
+  
+  .reviews .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  
+  .reviews .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+  
+  .reviews .carousel .card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .owl-dots{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #002B5B!important;
+  }
+  
+  .owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+  }
+  
+  .owl-dot.active, .owl-dot:hover{
+    background-color: #002B5B!important;
+  }
+/* login style */
+*{
+    /* background-color: purple;  */
+    box-sizing: border-box; 
+    font-size: 18px;
+    font-family: cursive;
+  }
+  h1{
+      color: white;
+      text-align: center;
+  }
+  form{
+      width: 80%;
+      background-color: white;
+      padding: 50px;
+      margin: auto;
+  
+  }
+  form label input,label {
+      background-color: white;
+      display: block;
+      width: 90%;
+  }
+  form label input{
+      margin: 20px 0 20px 0;
+      outline: none;
+      border: groove 1px;
+  }
+  input[type="submit"]{
+      color: white;
+      cursor: pointer;
+      width: 200px;
+      height: 40px;
+      display: block;
+      margin: auto;
+      border-radius: 40px;
+  } 
+  /* ends */
+
+  /* create account */
+  *{
+    /* background-color: purple; */
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    background-color: white;
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px;
+}
+form input, label{
+    display: block;
+    background-color: white;
+ 
+}
+input{
+    margin: 20px 0px;
+    width: 90%;
+    height: 5vh;
+    border: 1px groove;
+    border-radius: 2px;
+}
+input:focus{
+    outline: none;
+}
+form select option, form select{
+    background-color: white;
+    width: 50%;
+    border: groove 1px ;
+    outline: none;
+}
+form select option:focus{
+    outline: none;
+}
+#gender{
+    margin-top: 50px;
+}
+form label span {
+    display: inline-block;
+    background-color: white;
+    
+}
+input[type="radio"]{
+    background-color: white;
+    display: inline-block;
+    width: 20px;
+}
+form label span sup{
+    background-color: white;
+    margin: -10px 10px 0 10px;
+}
+
+input[type="file"]{
+    border: none;
+}
+
+form label textarea{
+    background-color: white;
+    height: 20vh;
+    width: 80%;
+    resize: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+sup{
+    background-color: white;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+input[type="submit"]{
+    background-color: purple;
+    width: 40%;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 30%;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center
+    
+}
+
+span {
+    color: red;
+}
+/* ends here */
+
+
+

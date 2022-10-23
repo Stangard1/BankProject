@@ -1,0 +1,64 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+
+
+<div class="carousel owl-carousel">
+
+                <div class="card">
+                  <div class="box">
+                    <img src="media/IMG_1010101.jpg" alt="">
+                    <div class="text">New Trading Floor</div>
+                    <p>New trading floor @Chimobi plaza Ogui Road,Enugu State</p>
+                  </div>
+                </div>  
+
+                <div class="card">
+                  <div class="box">
+                    <video class="video" src="media/VID-202108.mp4" controls="controls" autoplay="autoplay" muted="muted" ></video>
+                    <div class="text">Previous Trading Floor</div>
+                    <p>One On One live Trading at the previous trading floor </p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                    <video class="video" src="media/VID-20211.mp4" controls="controls" ></video>
+                    <div class="text">New Trading Floor</div>
+                    <p>One On One trading section at the Current Trading floor at Enugu</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                    <img src="media/IMG_1040.jpeg" alt="">
+                    <div class="text">Trading Lifestyle</div>
+                    <p>Living a comfortable lifestyle all sitting at your desk and trading the forex market</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                    <video class="video" src="media/VID-2021071.mp4" controls="controls" ></video>
+                    <div class="text">Signal Providing</div>
+                    <p>Forex Signals Serving Subscribers right</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                    <video class="video" src="media/IMG_6775.MOV" controls="controls" ></video>
+                    <div class="text"> Previous Advertising</div>
+                    <p>Team Advertising</p>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="box">
+                    <img src="media/deriv.com.jpeg" alt="">
+                    <div class="text">Official Broker</div>
+                    <p>Deriv Broker Still remains the official Broker @Austin Forex Trading Academy</p>
+                  </div>
+                </div>
+
+              </div>
